@@ -1,0 +1,130 @@
+body
+{
+	background-color:teal;
+}
+div
+{
+	padding: 60px 40px 50px 100px;
+	margin-left: 30px;
+	border-style: dotted;
+	border-width: 5x;
+	border-color: black;
+	border-radius: 5px;
+	background: url(q.jpeg);
+	backface-visibility: 0.2;
+}
+ 
+nav
+{	
+	width: 100%;
+	height: 25px;
+	border: dotted;
+	background-color: grey;
+	float: right;
+	display: inline-block;
+	background-color: cyan;
+	color: black;
+}
+
+ #qw
+  {	
+  	position: relative;
+  	height: 250px;
+  	width:150px;
+  	background-color: red;
+  	top: 30px;
+  	left: -33px;
+  	display: none;
+ }
+
+
+#mySidenav a {
+    position: absolute;
+	
+    left: -80px;
+    transition: 2.0s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 200px;
+    background-color: #f44336;
+}
+
+#blog {
+    top: 250px;
+    background-color: #2196F3;
+}
+
+
+
+#contact {
+    top: 300px;
+    background-color: #555
+}
+
+h3
+{
+	font-size: 40px;
+	font-weight: bold;
+	border: dashed;
+}
+li
+{
+	display: inline-block;
+	float: right;
+	color: cyan;
+}
+li:hover
+{
+	transition:  color 0.1s;
+	color: red;
+}
+.active
+{
+	background-color: #4CAF50;
+	color: black;
+}
+
+
+.text
+{
+	color:black;
+}
+
+.text:hover
+{
+	transition:  color 3.0s ease-in;
+	color: white;
+}
+.text2
+{
+	color: blue;
+}
+
+.text2:hover
+{
+	transition: color 3.2s ease-in;
+	transition: font-size 3.6s ease-out;
+}
+.box
+{
+	background-color: green;
+	width: 250px;
+	height: 100px;
+	transition: background-color 2s linear;
+
+}
+.box:hover
+{
+	background-color: black;
+}
